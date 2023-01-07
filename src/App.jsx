@@ -26,7 +26,7 @@ function App() {
         type="text"
         placeholder='Search for a Drinks'  />
         <button  type='text'> 
-            <img src=  "/vite.svg" alt="" /> 
+            <img src=  "./assets" alt="" /> 
         </button> 
         </form>
       </div>
