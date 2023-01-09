@@ -1,6 +1,6 @@
 const Cocktails = ({data}) => {
     return (
-        <div>
+        <div className="cocktail">
             <img src= {data.strDrinkThumb} alt="" />
             <h2>{data.strDrink}</h2>
             <h3><span>Category:</span>{data.strCategory}</h3>

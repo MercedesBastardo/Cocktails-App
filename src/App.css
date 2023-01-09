@@ -1,0 +1,254 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(50, 201, 201);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.App {
+    margin: auto 4rem;
+}
+.beginning {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 5px double greenyellow;
+    flex-wrap: wrap;
+}
+.beginning img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50% 1em;
+}
+.beginning h1 {
+    color: #7e4c7e;
+    font-family: cursive;
+    font-size: 70px;
+    text-align: center;
+}
+.header {
+    padding: 40px;
+}
+.header h2 {
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+.header h3 {
+    font-size: 30px;
+    color: #7e4c7e;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.header p {
+    font-size: 20px;
+    color: rgb(91, 91, 91);
+    text-align: justify;
+    line-height: 30PX;
+}
+form {
+    padding-bottom: 40px;
+    border-bottom: 5px double greenyellow;
+}
+.search {
+    margin: 0 auto;
+    width: 340px;
+    border-radius: 20px;
+    border: 2px groove #7e4c7e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    border: none;
+    color: rgb(91, 91, 91);
+    height: 40px ;
+}
+input:focus {
+    outline: none;
+}
+button {
+    width: 50px;
+    border: none;
+    background-color: rgb(50, 201, 201);   
+}
+.fa-magnifying-glass {
+    color: rgb(91, 91, 91);
+    background-color: white;  
+}
+.cocktails {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px 0;
+}
+.cocktail {
+    width: 250px;
+    height: 500px;
+    border: 3px groove #7e4c7e;
+    border-radius: 2rem;  
+    text-align: justify;
+    overflow: auto; 
+}
+.cocktails img {
+    width: 294px;
+    height: 240px;
+    border-bottom: 40px solid #7e4c7e;
+    border-radius: 2rem 2rem 0 0;
+}
+.cocktail h2 {
+    text-align: center;
+    margin: 1rem auto;
+}
+.cocktail h3 {
+    text-align: justify;
+    margin-left: 30px;
+}
+.cocktail article {
+    margin: 1rem 1rem 1rem 2rem;
+    text-justify: auto;
+}
+footer {
+    border-top: 5px double greenyellow;
+    padding: 30px;
+    color: #7e4c7e;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+}
+footer h3 {
+    padding: 30px;
+}
+footer a {
+    color: yellow;
+}
+#toast {
+    padding: 50px;
+}
+#toast h3 {
+    font-size: 40px;
+    color: #7e4c7e;
+    padding-bottom: 40px;
+}
+#toast img{
+    border: 2px groove #7e4c7e;
+    border-radius: 50% 20px;
+    width: 350px;
+    height: 400px;
+}
+@media (max-width: 1000px){
+    .beginning h1 {
+        font-size: 60px; 
+    }
+    .beginning img{
+        width: 90px;
+        height: 90px;
+    }
+    .header h2 {
+        font-size: 35px;
+    }
+    .header h3 {
+        font-size: 25px;
+    }
+    .header p {
+        font-size: 18px;
+    }
+    footer {
+        font-size: 25px;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .beginning h1 {
+        font-size: 35px; 
+    }
+    .beginning img{
+        width: 60px;
+        height: 60px;
+    }
+    .header {
+        padding: 20px;
+    }
+    .header h2 {
+        font-size: 25px;
+    }
+    .header h3 {
+        font-size: 20px;
+    }
+    .header p {
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+    .search {
+        width: 200px;
+        height: 50px;
+    }
+    input {
+        width: 120px;
+        height: 30px;
+    }
+    button {
+        width: 35px;
+        height: 35px;
+          
+    }
+    .fa-magnifying-glass {
+        font-size: 20px;
+    }
+    .cocktail {
+        width: 200px;
+        height: 350px; 
+    }
+    .cocktail img {
+        width: 195px;
+        height: 150px;
+    }
+    .cocktail h2 {
+        font-size: 18px;
+        padding: 0;
+        margin: 5px 0;
+    }
+    .cocktail h3 {
+        font-size: 13px;
+        padding: 0;
+    }
+    .cocktail article {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    footer {
+        padding:0;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media (max-width: 400px){
+ .beginning h1 {
+    font-size: 25px;
+ }
+ .beginning img {
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius:10px;
+ }
+ #toast {
+    padding: 0;
+ }
+ #toast h3 {
+    font-size: 30px;
+ }
+ #toast img {
+    width: 250px;
+    height: 300px;
+ }
+}
+
