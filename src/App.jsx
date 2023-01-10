@@ -30,7 +30,7 @@ function App() {
       <div>
           <div className='beginning'>
                 <h1>@otherLevel.com</h1>
-                <img src="/public/cocktails3.jpg" alt="" />
+                <img src="/cocktails3.jpg" alt="" />
           </div>
           <div className='header'>
               <h2>Welcome to @otherLevel.com

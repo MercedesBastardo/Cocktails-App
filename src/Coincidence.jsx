@@ -11,7 +11,7 @@ const Coincidence = ({data1, toGetBack}) => {
     return (
         <div id='toast' style={{display: data}}>
             <h3>"No matches"</h3>
-            <img src="/public/cocktails2.jpg" alt="" />
+            <img src="/cocktails2.jpg" alt="" />
         </div>
     )
 }
