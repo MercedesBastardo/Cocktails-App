@@ -72,10 +72,18 @@ input {
 input:focus {
     outline: none;
 }
-button {
+.search button {
     width: 50px;
     border: none;
     background-color: rgb(50, 201, 201);   
+}
+.search button i {
+    background-color: rgb(50, 201, 201);
+    color: #7e4c7e;
+    font-size: 25px;
+}
+.search button i:hover {
+    color: yellow;
 }
 .fa-magnifying-glass {
     color: rgb(91, 91, 91);
